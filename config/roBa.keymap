@@ -96,10 +96,10 @@
 
         ARROW {
             bindings = <
-&kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                           &trans    &kp LC(LS(TAB))   &kp UP_ARROW  &kp LC(TAB)        &kp END
-&kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp LA(LC(KP_NUMBER_0))      &trans  &kp HOME  &kp LEFT          &kp DOWN      &kp RIGHT          &kp RCTRL
-&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL                    &trans  &trans    &kp RG(RS(LEFT))  &trans        &kp RG(RS(RIGHT))  &kp RIGHT_SHIFT
-&trans                      &trans           &trans           &trans           &trans        &trans                       &trans  &trans                                                       &trans
+&kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                           &kp HOME         &kp LC(LS(TAB))   &kp UP_ARROW  &kp LC(TAB)        &kp END
+&kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp LA(LC(KP_NUMBER_0))      &trans  &kp LC(PAGE_UP)  &kp LEFT          &kp DOWN      &kp RIGHT          &kp RC(PAGE_DOWN)
+&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL                    &trans  &trans           &kp RG(RS(LEFT))  &trans        &kp RG(RS(RIGHT))  &kp RIGHT_SHIFT
+&trans                      &trans           &trans           &trans           &trans        &trans                       &trans  &trans                                                              &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
